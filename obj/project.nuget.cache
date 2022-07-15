@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6FUYydq2OxTV2BEHyhDppP6YqHE2jC4KAJbTjm5nhO25CI8/xU55DZ4uP1eKnHPc/hksuySwy5wnFXglhJMuQ==",
+  "dgSpecHash": "i2UwpGxzHa7xJuhUOlIqcJNynPjzSzc+FF2hd2TOmr+DeQWkRBBOjJT6g+G91uzPdIa/iJPGm4I0IjZw70KjtA==",
   "success": true,
-  "projectFilePath": "D:\\NetProjectsTemplates\\bootstrap-checkout\\bootstrap-checkout.csproj",
+  "projectFilePath": "D:\\Projects\\order-checkout-bootstrap\\bootstrap-checkout.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

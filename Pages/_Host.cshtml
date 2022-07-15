@@ -53,7 +53,7 @@
       <h2> 
           Оформление заказа
         </h2>
-      <p class="lead"> Ниже перечислен список товаров  </p>
+      <p class="lead"> Cписок товаров  </p>
     </div>
 
     <div class="row g-5">
@@ -85,11 +85,11 @@
         </form>
       </div>
       <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3"> Адрес доставки</h4>
+        <h4 class="mb-3"> Покупатель  </h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">Имя</label>
+              <label for="firstName" class="form-label"> Имя </label>
               <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Необходимо ввести имя
@@ -97,21 +97,20 @@
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Фамилия</label>
+              <label for="lastName" class="form-label"> Фамилия </label>
               <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
               <div class="invalid-feedback">
-                Необходимо ввести фамилию
-               
+                Необходимо ввести фамилию               
               </div>
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Имя пользователя</label>
+              <label for="username" class="form-label"> Имя пользователя </label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@@</span>
                 <input type="text" class="form-control" id="username" placeholder="Username" required>
               <div class="invalid-feedback">
-                  Your username is required.
+                  Неаобходимо ввести имя пользователя
                 </div>
               </div>
             </div>
@@ -120,42 +119,42 @@
               <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
+                Необходимо ввести электронную почту
               </div>
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">Address</label>
+              <label for="address" class="form-label"> Адрес </label>
               <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
               <div class="invalid-feedback">
-                Please enter your shipping address.
+                Необходимо ввести адрес
               </div>
             </div>
 
             <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+              <label for="address2" class="form-label">Адрес  2 <span class="text-muted">(Optional)</span></label>
               <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
             </div>
 
             <div class="col-md-5">
               <label for="country" class="form-label">Country</label>
               <select class="form-select" id="country" required>
-                <option value="">Choose...</option>
-                <option>United States</option>
+                <option value="">Выбери...</option>
+                <option>Страну</option>
               </select>
               <div class="invalid-feedback">
-                Please select a valid country.
+                Выбери страну
               </div>
             </div>
 
             <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
+              <label for="state" class="form-label">Город</label>
               <select class="form-select" id="state" required>
-                <option value="">Choose...</option>
+                <option value="">Выбери город...</option>
                 <option>California</option>
               </select>
               <div class="invalid-feedback">
-                Please provide a valid state.
+                Ds,thb ujhjl
               </div>
             </div>
 
@@ -163,35 +162,32 @@
               <label for="zip" class="form-label">Zip</label>
               <input type="text" class="form-control" id="zip" placeholder="" required>
               <div class="invalid-feedback">
-                Zip code required.
+                Код к архиву
               </div>
             </div>
           </div>
 
           <hr class="my-4">
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-          </div>
-
+ 
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Save this information for next time</label>
+            <label class="form-check-label" for="save-info">
+              Запомнить информацию обо мне
+            </label>
           </div>
 
           <hr class="my-4">
 
-          <h4 class="mb-3">Payment</h4>
+          <h4 class="mb-3">Оплата</h4>
 
           <div class="my-3">
             <div class="form-check">
               <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
+              <label class="form-check-label" for="credit">Кредитная карта </label>
             </div>
             <div class="form-check">
               <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
+              <label class="form-check-label" for="debit">Дебитовая карта</label>
             </div>
             <div class="form-check">
               <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
@@ -201,27 +197,27 @@
 
           <div class="row gy-3">
             <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
+              <label for="cc-name" class="form-label"> Комментарий </label>
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Full name as displayed on card</small>
+              <small class="text-muted">Краткий комментарий о назначении платежа</small>
               <div class="invalid-feedback">
-                Name on card is required
+              Выбери карту
               </div>
             </div>
 
             <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
+              <label for="cc-number" class="form-label">Номер кредитной карты</label>
               <input type="text" class="form-control" id="cc-number" placeholder="" required>
               <div class="invalid-feedback">
-                Credit card number is required
+                Выкди номер карты
               </div>
             </div>
 
             <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
+              <label for="cc-expiration" class="form-label">Действие</label>
               <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
               <div class="invalid-feedback">
-                Expiration date required
+                Выбери дату окончания действия
               </div>
             </div>
 
@@ -229,14 +225,14 @@
               <label for="cc-cvv" class="form-label">CVV</label>
               <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
               <div class="invalid-feedback">
-                Security code required
+                Введи секретный ключ
               </div>
             </div>
           </div>
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit"> Продолжить и перейти к фоормлению</button>
         </form>
       </div>
     </div>
