@@ -59,7 +59,6 @@ D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.csproj.
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.RazorComponent.input.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\OrderCheckout.razor.g.cs
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.RazorComponent.output.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\bootstrap-checkout.dll
@@ -67,7 +66,6 @@ D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.TagHelp
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.TagHelpers.output.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.RazorCoreGenerate.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\App.razor.g.cs
-D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\OrderCheckout.razor.g.cs
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
@@ -84,3 +82,15 @@ D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.pdb
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.genruntimeconfig.cache
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\ref\bootstrap-checkout.dll
 D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\bootstrap-checkout.csproj.CopyComplete
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\OrderCheckout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\OrderCheckout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Account Registration.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Customer Navigation.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Customer Page Layout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Order Checkout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Order Status Tracing.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Purchase History.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Purchase Order.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Select Payment Method.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\User Login.razor.g.cs
