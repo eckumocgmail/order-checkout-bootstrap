@@ -1,0 +1,115 @@
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.csproj.AssemblyReference.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.AssemblyInfoInputs.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.AssemblyInfo.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.csproj.CoreCompileInputs.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorComponent.input.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Order Checkout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Order Status Tracing.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Purchase History.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Purchase Order.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Select Payment Method.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorComponent.output.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\OrderCheckout.dll
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.TagHelpers.input.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.TagHelpers.output.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorCoreGenerate.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\App.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Order Checkout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Order Status Tracing.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Purchase History.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Purchase Order.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Select Payment Method.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorAssemblyInfo.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorAssemblyInfo.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\scopedcss\bundle\OrderCheckout.styles.css
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\staticwebassets\OrderCheckout.StaticWebAssets.Manifest.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorTargetAssemblyInfo.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.RazorTargetAssemblyInfo.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.dll
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\refint\OrderCheckout.dll
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\appsettings.json
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.exe
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.deps.json
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.runtimeconfig.json
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.runtimeconfig.dev.json
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.Views.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\OrderCheckout.Views.pdb
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.Views.pdb
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.genruntimeconfig.cache
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\ref\OrderCheckout.dll
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\OrderCheckout.csproj.CopyComplete
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Account Registration.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\User Home.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\User Login.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Account Registration.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\User Home.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\User Login.razor.g.cs
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Humanizer.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\order-checkout-bootstrap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Customer Navigation.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Customer Navigation.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\Pages\Customer Page Layout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\Pages\Customer Page Layout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\RazorDeclaration\User Logout.razor.g.cs
+D:\Projects\order-checkout-bootstrap\obj\Debug\net5.0\Razor\User Logout.razor.g.cs

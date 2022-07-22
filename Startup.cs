@@ -9,56 +9,61 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using bootstrap_checkout.Pages;
+using OrderCheckout.Pages;
 
-namespace bootstrap_checkout
+ 
+public class Startup
 {
-    public class Startup
+    public Startup(IConfiguration configuration)
     {
-        public Startup(IConfiguration configuration)
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    // This method gets called by the runtime. Use this method to add services to the container.
+    // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddSignalR();
+        services.AddServerSideBlazor();
+
+        services.AddHttpClient();
+        services.AddHttpContextAccessor();
+        services.AddRazorPages();
+        services.AddControllersWithViews();
+
+            
+        services.AddTransient<IAccountRegistration, AccountRegistration>();
+        services.AddTransient<ITokenProvider, TokenProvider>();
+        services.AddTransient<IUserLogin, UserLogin>();
+        services.AddTransient<IUserLogout, UserLogout>();
+            
+    }
+
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
         {
-            Configuration = configuration;
+            app.UseDeveloperExceptionPage();
+        }
+        else
+        {
+            app.UseExceptionHandler("/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
         }
 
-        public IConfiguration Configuration { get; }
+        app.UseHttpsRedirection();
+        app.UseStaticFiles();
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+        app.UseRouting();
+
+        app.UseEndpoints(endpoints =>
         {
-            services.AddHttpClient();
-            services.AddHttpContextAccessor();
-            services.AddRazorPages();
-            services.AddControllersWithViews();
-            services.AddSignalR();
-            services.AddServerSideBlazor();
-            services.AddSingleton<OrderCheckoutService>();
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapBlazorHub();
-                endpoints.MapFallbackToPage("/_Host");
-            });
-        }
+            endpoints.MapBlazorHub();
+            endpoints.MapFallbackToPage("/_Host");
+        });
     }
 }

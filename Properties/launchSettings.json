@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "bootstrap-checkout": {
+    "OrderCheckout": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

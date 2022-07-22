@@ -1,0 +1,77 @@
+﻿@page "/user-login"
+@page "/"
+
+@inject NavigationManager nav
+@inject IUserLogin login
+@inject AuthorizationUsers users
+
+@code{
+    public string Message { get; set; } = "";
+    public string Email { get; set; } = "eckumoc@gmail.com";
+    public string Token { get; set; } = null;
+    public string Password { get; set; } = "eckumoc@gmail.com";
+}
+
+@code{
+    public void OnLoginSubmited()
+    {
+        if((Token=login.Signin(Email,Password))!=null)
+        {
+            this.Message = "Авторизация выполнена";
+            nav.NavigateTo("/user-home");
+        }
+        else
+        {
+            this.Message = "Авторизация не выполнена";
+        }        
+    }
+}
+
+<div align="center">  
+    <div style="width: 640px;" align="left">
+        <h3>Авторизация пользователя</h3>
+        <div class="text text-info">@Message</div>
+        <div class="text text-info">@Token</div>
+        <form @onsubmit="@OnLoginSubmited">                     
+            <div class="col-12">
+                <label for="username" class="form-label"> Имя пользователя </label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text">@@</span>
+                    <input type="email" @bind="Email" class="form-control" id="username" placeholder="Электронная почта" required>
+                    <div class="invalid-feedback">
+                        Необходимо ввести имя пользователя
+                    </div>
+                </div>
+            </div><hr/>
+            <div class="col-12">
+                <label for="password" class="form-label"> Пароль </label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text">@@</span>
+                    <input type="password" @bind="Password" class="form-control" id="password" placeholder="Пароль" required>
+                    <div class="invalid-feedback">
+                        Необходимо ввести пароль
+                    </div>
+                </div>
+            </div><hr/>
+           
+            <div class="col-12" align="right" style="padding: 10px;">
+                <button class="btn btn-primary btn-sm"> Выполнить </button>
+            </div>
+        </form>
+    </div>
+    <div align="center">
+        <NavLink class="nav-link" href="account-registration"  style="width: 100%; margin-left: 20px;">
+            <span class="oi oi-person" aria-hidden="true"></span> Регистрация пользователя
+        </NavLink>
+    </div>
+    <div>
+        <table>
+            @foreach (var user in users.GetAll())
+            {
+                <tr>
+                    <td>@user.Account.Email</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div> 

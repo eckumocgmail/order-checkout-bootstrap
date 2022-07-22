@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace bootstrap_checkout.Pages
+namespace OrderCheckout.Pages
 {
     #line hidden
     using System;
@@ -70,12 +70,26 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
-using bootstrap_checkout;
+using OrderCheckout;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class Customer_Page_Layout : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 10 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
+using OrderCheckout.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
+using Microsoft.Extensions.DependencyInjection;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class Customer_Page_Layout : LayoutComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

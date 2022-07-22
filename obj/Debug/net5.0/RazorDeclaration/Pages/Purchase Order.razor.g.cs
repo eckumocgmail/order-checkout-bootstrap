@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace bootstrap_checkout.Pages
+namespace OrderCheckout.Pages
 {
     #line hidden
     using System;
@@ -70,27 +70,33 @@ using Microsoft.JSInterop;
 #nullable disable
 #nullable restore
 #line 9 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
-using bootstrap_checkout;
+using OrderCheckout;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
+using OrderCheckout.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "D:\Projects\order-checkout-bootstrap\_Imports.razor"
+using Microsoft.Extensions.DependencyInjection;
 
 #line default
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/purchase-order")]
-    public partial class Purchase_Order : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Purchase_Order : ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 3 "D:\Projects\order-checkout-bootstrap\Pages\Purchase Order.razor"
-      
-    public object authState { get; set; } = "waiting";
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591
