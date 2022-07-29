@@ -1,9 +1,9 @@
 ﻿<Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" />
+        <RouteView RouteData="@routeData" DefaultLayout="typeof(PageLayout)" />
     </Found>
     <NotFound>
-        <LayoutView  >
+        <LayoutView Layout="typeof(PageLayout)" >
             <p> К сожалению ресурс не найден ... </p>
         </LayoutView>
     </NotFound>

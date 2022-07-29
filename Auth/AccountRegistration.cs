@@ -46,11 +46,29 @@ public class AccountRegistration: IAccountRegistration
     {
         if(HasUserWithEmail(Email)==false){
 
-            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(
-                    System.IO.Directory.GetCurrentDirectory(), "users", Email).ToLower());
-            System.IO.File.WriteAllText(System.IO.Path.Combine(
-                    System.IO.Directory.GetCurrentDirectory(), "users", Email, "password.txt").ToLower(), Password);
-            return true;
+            string Dir="", File="";
+            try
+            {
+                Dir = System.IO.Path.Combine(
+                    System.IO.Directory.GetCurrentDirectory(), "Users", Email).ToLower();
+                System.IO.Directory.CreateDirectory(Dir);
+
+                File = System.IO.Path.Combine(
+                    System.IO.Directory.GetCurrentDirectory(), 
+                    "Users", 
+                    Email, 
+                    "password.txt"
+                ).ToString().ToLower();
+                System.IO.File.WriteAllText(File, Password);
+
+                return true;
+            }
+            catch (System.IO.FileNotFoundException ex)
+            {
+                throw new System.Exception(
+                    "Регистрация учетной записи не выполнена, " +
+                    $"путь к каталогу задан неверно: \n{Dir}\n{File}.", ex);
+            }
 
         }else{
             return false;

@@ -36,7 +36,7 @@
                 <label for="username" class="form-label"> Имя пользователя </label>
                 <div class="input-group has-validation">
                     <span class="input-group-text">@@</span>
-                    <input type="email" @bind="Email" class="form-control" id="username" placeholder="Электронная почта" required>
+                    <input type="email" asp-for="Email" class="form-control" id="username" placeholder="Электронная почта" required>
                     <div class="invalid-feedback">
                         Необходимо ввести имя пользователя
                     </div>
@@ -46,7 +46,7 @@
                 <label for="password" class="form-label"> Пароль </label>
                 <div class="input-group has-validation">
                     <span class="input-group-text">@@</span>
-                    <input type="password" @bind="Password" class="form-control" id="password" placeholder="Пароль" required>
+                    <input type="password" asp-for="Password" class="form-control" id="password" placeholder="Пароль" required>
                     <div class="invalid-feedback">
                         Необходимо ввести пароль
                     </div>
@@ -56,7 +56,7 @@
                 <label for="password" class="form-label"> Подтверждение </label>
                 <div class="input-group has-validation">
                     <span class="input-group-text">@@</span>
-                    <input type="password" @bind="Confirmation" class="form-control" id="confirmation" placeholder="Подтверждение" required>
+                    <input type="password" asp-for="Confirmation" class="form-control" id="confirmation" placeholder="Подтверждение" required>
                     <div class="invalid-feedback">
                         Необходимо ввести подтверждение пароля
                     </div>

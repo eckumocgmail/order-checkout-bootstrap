@@ -1,0 +1,53 @@
+﻿@inherits ComponentBase
+@inject NavigationManager nav
+@code{
+    public class MenuItem
+    {
+        public string Label { get; set; }
+        public string Href { get; set; }
+        public bool Active { get; set; } = false;
+        public bool Disabled { get; set; } = false;
+    }
+}
+@code
+{
+    [Parameter] public string Brand { get; set; } = "EcKuMoC";
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public IEnumerable<MenuItem> MenuItems { get; set; } = new List<MenuItem>()
+    {
+        new MenuItem()
+        {
+            Label = "Авторизация",
+            Href = "/user-login"
+        }
+    };
+}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding-left: 20px; padding-right: 20px;">
+
+    <a class="navbar-brand">  @Brand  </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        @if(ChildContent!=null)
+        {
+            @ChildContent
+        }
+
+        <ul class="navbar-nav">
+            @foreach(var MenuItem in MenuItems)
+            {
+                <li @onclick="@(evt=>nav.NavigateTo(MenuItem.Href))" class="nav-item @(MenuItem.Active? "active":"") @(MenuItem.Disabled? "disabled":"")" 
+                    style="display: flex; flex-direction: row; flex-wraqp: nowrap; width: 100%;">
+                    <a class="btn nav-link" style="padding: 5px 10px;"  > 
+                        {{ MenuItem.Label }}
+                    </a>
+                </li>                 
+            }
+        </ul>
+      
+    </div>
+    </nav>
